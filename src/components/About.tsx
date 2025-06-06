@@ -17,7 +17,7 @@ export const About = () => {
                   T
                 </div> */}
                 <img
-                  src="/public/me.png"
+                  src="/TahmidPortfolio/me.png"
                   alt="Tahmid's Avatar"
                   className="w-full h-full rounded-full object-cover shadow-lg"
                 />
