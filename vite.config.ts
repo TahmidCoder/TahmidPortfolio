@@ -5,7 +5,10 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/TahmidPortfolio/",
+  base: "/TahmidPortfolio/", // GitHub repo নাম অনুযায়ী
+  build: {
+    outDir: "docs", // build ফাইল 'docs' ফোল্ডারে যাবে
+  },
   server: {
     host: "::",
     port: 8080,
