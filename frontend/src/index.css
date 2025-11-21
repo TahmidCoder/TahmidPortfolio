@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* globals.css or component css */
+::selection {
+  background: rgb(104, 214, 187); /* gradient color */
+  color: white; /* selected text color */
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
