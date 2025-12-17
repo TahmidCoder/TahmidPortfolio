@@ -99,7 +99,7 @@ const Home = () => {
                         <div className="absolute inset-1 rounded-full overflow-hidden border-2 border-white dark:border-gray-900 shadow-xl bg-black">
                             <img
                                 src="./tahmid.png"
-                                alt="Tahmid"
+                                alt="Tahmid – Full Stack Web Developer"
                                 className="w-full h-full object-cover"
                             />
                         </div>
@@ -122,16 +122,15 @@ const Home = () => {
 
                 </motion.div>
 
-                {/* Name */}
+                {/* Name + SEO H1 */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
                     className="mt-8 sm:mt-10"
                 >
-                    <h1 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-700 dark:text-white/90">
-                        I'm{" "}
-                        <span className="text-red-600 dark:text-red-500 font-bold">Tahmid</span>
+                    <h1 className="text-3xl sm:text-2xl md:text-4xl font-semibold text-gray-700 dark:text-white/90 text-center">
+                        <span className="text-red-600 dark:text-red-500 font-bold">Tahmid</span> – Full Stack Web Developer Portfolio
                     </h1>
                 </motion.div>
 
@@ -142,26 +141,17 @@ const Home = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.6, duration: 0.6 }}
                 >
-                    <motion.h1
-                        className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-center px-4"
-                        initial={{ opacity: 0, scale: 0.9 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ delay: 0.8 }}
-                    >
-                        <span className="bg-gradient-to-r from-gray-800 via-red-600 to-gray-800 dark:from-white dark:via-red-400 dark:to-white bg-clip-text text-transparent">
-                            FullStack Web Developer
-                        </span>
-                    </motion.h1>
 
-                    <motion.h2
-                        className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium text-gray-600 dark:text-gray-400 text-center px-4 flex items-center gap-2"
+                    <motion.span
+                        className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium text-gray-600 dark:text-gray-400 text-center px-4"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 1 }}
                     >
                         Based in Bangladesh
-                    </motion.h2>
+                    </motion.span>
                 </motion.div>
+
 
                 {/* Description */}
                 <motion.div
@@ -170,7 +160,7 @@ const Home = () => {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1.2, duration: 0.8 }}
                 >
-                    <p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
+                    <h2 className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
                         I'm a passionate web developer who loves creating{" "}
                         <span className="text-red-600 dark:text-red-400 font-semibold">clean</span>,{" "}
                         <span className="text-red-600 dark:text-red-400 font-semibold">modern</span>, and{" "}
@@ -178,7 +168,7 @@ const Home = () => {
                         I specialize in{" "}
                         <span className="text-gray-900 dark:text-white font-semibold">MERN Stack</span> and enjoy
                         bringing ideas to life through code.
-                    </p>
+                    </h2>
                 </motion.div>
 
                 {/* Tech Stack Icons */}
@@ -217,7 +207,7 @@ const Home = () => {
                     {/* ✅ Download Resume Button */}
                     <motion.a
                         href="./Tahmid.pdf"
-                        download="Tahmid-Resume.pdf"
+                        download="Tahmid-Full-Stack-Web-Developer-Resume.pdf"
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                         className="px-8 py-3 bg-red-600 hover:bg-red-700 dark:bg-red-600 dark:hover:bg-red-700 
